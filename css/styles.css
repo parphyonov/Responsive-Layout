@@ -1,3 +1,152 @@
+/*** ***************** ***
+* --- General Styles --- *
+*** ***************** ***/
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #4a4a4a;
+  background-color: #fafafa;
+}
+
+#portfolio {
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 1.5em;
+  letter-spacing: 5.5px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+img {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/*** ******************* ***
+* --- Elements' Widths --- *
+*** ******************* ***/
+
+header {
+  width: 100%;
+  min-height: 90vh;
+  padding-top: 16px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+#portfolio h3 {
+  padding: 35px 0 20px;
+  margin: 0;
+}
+
+/*** ********************** ***
+* --- Header > Navigation --- *
+*** ********************** ***/
+header nav a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+nav {
+  margin-top: 20px;
+}
+header .image-holder img {
+  width: 200px;
+  margin: 30px 0 10px;
+}
+header p,
+#portfolio-list p,
+#contact p {
+  font-weight: 300;
+}
+#portfolio {
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+/*** ************ ***
+* --- Portfolio --- *
+*** ************ ***/
+#portfolio-list {
+  list-style: none;
+  padding: 0;
+}
+#portfolio-list img {
+  width: 100%;
+}
+
+h5 {
+  color: #000;
+  font-size: 1.25em;
+  margin: 15px 0 0;
+}
+#portfolio-list p {
+  font-size: 0.9em;
+  margin-bottom: 30px;
+}
+
+/*** ********** ***
+* --- Contact --- *
+*** ********** ***/
+.bottom {
+  margin-bottom: 12%;
+}
+#contact a {
+  font-weight: bolder;
+  color: #7a7a7a;
+  padding-left: 2.5%;
+}
+#contact .container {
+  padding-bottom: 10%;
+  border-bottom: 1px solid lightgray;
+}
+
+/*** ********* ***
+* --- Footer --- *
+*** ********* ***/
+footer h2 {
+  float: left;
+  font-size: 1em;
+  padding: 25px 0;
+  margin: 0;
+}
+footer a {
+  font-size: 0.8em;
+  padding: 28px 0;
+  float: right;
+}
+
+/*** ********** ***
+* --- Classes --- *
+*** ********** ***/
+
+.upcase {
+  text-transform: uppercase;
+}
+
+.image-holder img {
+  max-width: 100%;
+}
+
+.group::after {
+  content: '';
+  display: table;
+  clear: both;
 }
