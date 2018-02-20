@@ -181,3 +181,50 @@ footer a {
   display: table;
   clear: both;
 }
+
+@media (min-width: 768px) {
+
+  /*** *************************** ***
+  * --- Header & Main Navigation --- *
+  *** *************************** ***/
+
+  header {
+    padding-bottom: 6.94%;
+  }
+
+  h1 {
+    padding: 8.68% 1% 4%;
+  }
+
+  header p {
+    float: left;
+    font-size: 1.25em;
+    text-align: left;
+    max-width: 60%;
+    padding-right: .5em;
+    margin-top: 0;
+  }
+
+  #logo img {
+    float: right;
+    max-width: 40%;
+  }
+
+  #header-group {
+    vertical-align: top;
+  }
+
+  header nav ul {
+    margin: 0;
+  }
+
+  header nav li {
+    display: inline-block;
+    margin-right: 5%;
+  }
+
+  header nav li:last-child {
+    margin-right: 0;
+  }
+
+}
