@@ -20,10 +20,6 @@ p {
   margin: 0;
 }
 
-h5 {
-  color: #000;
-}
-
 #portfolio {
   background-color: #fff;
 }
@@ -47,7 +43,7 @@ a {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 p {
@@ -78,7 +74,7 @@ footer {
 *** *************************** ***/
 
 h1 {
-  padding: 10.42% 1% 6.945%;
+  padding: 8.68% 1% 5.21%;
 }
 
 header .image-holder img {
@@ -87,17 +83,18 @@ header .image-holder img {
 
 header nav a {
   display: block;
-  padding: 10px 20px;
+  padding: 3.47% 6.94%;
   background-color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 1.74%;
 }
 
 header nav li:last-child {
-  margin-bottom: 40px;
+  margin-bottom: 8.65%;
 }
 
 header p {
-  margin: 25px 0 30px;
+  color: #9a9a9a;
+  margin: 6.94% 0 10.41%;
 }
 
 /**************** ***
@@ -105,35 +102,63 @@ header p {
 *** ************ ***/
 
 #portfolio {
-  padding-top: 50px;
+  padding-top: 15.5%;
 }
 h3 {
-  padding-bottom: 40px;
+  padding-bottom: 14%;
 }
 
 h5 {
-  padding: 30px 0 20px;
+  font-size: 1.3em;
+  letter-spacing: .75px;
+  padding: 10.41% 0 6.94%;
 }
 
 #portfolio p {
-  padding-bottom: 30px;
+  padding-bottom: 10.41%;
+  font-size: .9em;
+  line-height: 1.35;
+}
+
+#portfolio p:last-child {
+  padding-bottom: 17.36%;
 }
 
 /*** ********** ***
 * --- Contact --- *
 *** ********** ***/
 
+#contact {
+  padding-top: 12.15%;
+}
+
 #contact a {
   color: #7a7a7a;
   padding-left: 2.5%;
 }
+
 #contact .container {
+  padding-bottom: 17.36%;
   border-bottom: 1px solid lightgray;
+}
+
+#contact p {
+  margin-bottom: 6.94%;
+}
+
+#contact .contact-info {
+  margin-bottom: 3.47%;
 }
 
 /*** ********* ***
 * --- Footer --- *
 *** ********* ***/
+
+footer h2,
+footer a {
+  font-size: 1em;
+  margin: 8.5% 0 6.94%;
+}
 
 footer h2 {
   float: left;
