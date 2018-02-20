@@ -9,127 +9,162 @@
 body {
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  color: #4a4a4a;
   background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+  margin: 0;
 }
 
 #portfolio {
   background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.image-holder img {
+  max-width: 100%;
+}
+
+/*** ******************
+* --- Font Styles --- *
+****************** ***/
+
+body,
+a {
+  color: #4a4a4a;
 }
 
 h1 {
   font-size: 1.5em;
-  letter-spacing: 5.5px;
-  margin: 0;
+}
+
+p {
+  font-weight: 300;
 }
 
 a {
   text-decoration: none;
-  color: #4a4a4a;
 }
 
-img {
-  width: 150px;
-}
+/*** *********************** ***
+* --- Elements' Dimensions --- *
+*** *********************** ***/
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-/*** ******************* ***
-* --- Elements' Widths --- *
-*** ******************* ***/
-
-header {
-  width: 100%;
-  min-height: 90vh;
-  padding-top: 16px;
-}
 .container {
   width: 90%;
   margin: 0 auto;
 }
-#portfolio h3 {
-  padding: 35px 0 20px;
-  margin: 0;
-}
 
-/*** ********************** ***
-* --- Header > Navigation --- *
-*** ********************** ***/
-header nav a {
-  display: block;
-  padding: 10px 20px;
-  background-color: #fff;
-  margin-bottom: 5px;
-}
-nav {
-  margin-top: 20px;
-}
-header .image-holder img {
-  width: 200px;
-  margin: 30px 0 10px;
-}
-header p,
-#portfolio-list p,
-#contact p {
-  font-weight: 300;
-}
-#portfolio {
-  padding-bottom: 25px;
-  margin-bottom: 50px;
-}
-
-/*** ************ ***
-* --- Portfolio --- *
-*** ************ ***/
-#portfolio-list {
-  list-style: none;
-  padding: 0;
-}
-#portfolio-list img {
+header,
+section,
+footer {
   width: 100%;
 }
 
-h5 {
-  color: #000;
-  font-size: 1.25em;
-  margin: 15px 0 0;
+/*** *************************** ***
+* --- Header & Main Navigation --- *
+*** *************************** ***/
+
+h1 {
+  padding: 8.68% 1% 5.21%;
 }
-#portfolio-list p {
-  font-size: 0.9em;
-  margin-bottom: 30px;
+
+header .image-holder img {
+  max-width: 80%;
+}
+
+header nav a {
+  display: block;
+  padding: 3.47% 6.94%;
+  background-color: #fff;
+  margin-bottom: 1.74%;
+}
+
+header nav li:last-child {
+  margin-bottom: 8.65%;
+}
+
+header p {
+  color: #9a9a9a;
+  margin: 6.94% 0 10.41%;
+}
+
+/**************** ***
+* --- Portfolio --- *
+*** ************ ***/
+
+#portfolio {
+  padding-top: 15.5%;
+}
+h3 {
+  padding-bottom: 14%;
+}
+
+h5 {
+  font-size: 1.3em;
+  letter-spacing: .75px;
+  padding: 10.41% 0 6.94%;
+}
+
+#portfolio p {
+  padding-bottom: 10.41%;
+  font-size: .9em;
+  line-height: 1.35;
+}
+
+#portfolio p:last-child {
+  padding-bottom: 17.36%;
 }
 
 /*** ********** ***
 * --- Contact --- *
 *** ********** ***/
-.bottom {
-  margin-bottom: 12%;
+
+#contact {
+  padding-top: 12.15%;
 }
+
 #contact a {
-  font-weight: bolder;
   color: #7a7a7a;
   padding-left: 2.5%;
 }
+
 #contact .container {
-  padding-bottom: 10%;
+  padding-bottom: 17.36%;
   border-bottom: 1px solid lightgray;
+}
+
+#contact p {
+  margin-bottom: 6.94%;
+}
+
+#contact .contact-info {
+  margin-bottom: 3.47%;
 }
 
 /*** ********* ***
 * --- Footer --- *
 *** ********* ***/
+
+footer h2,
+footer a {
+  font-size: 1em;
+  margin: 8.5% 0 6.94%;
+}
+
 footer h2 {
   float: left;
-  font-size: 1em;
-  padding: 25px 0;
-  margin: 0;
 }
+
 footer a {
-  font-size: 0.8em;
-  padding: 28px 0;
   float: right;
 }
 
@@ -139,10 +174,6 @@ footer a {
 
 .upcase {
   text-transform: uppercase;
-}
-
-.image-holder img {
-  max-width: 100%;
 }
 
 .group::after {
