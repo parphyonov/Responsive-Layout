@@ -12,12 +12,8 @@ body {
   background-color: #fafafa;
 }
 
-h1,
-h2,
-h3,
-h5,
-p {
-  margin: 0;
+h5 {
+  color: #000;
 }
 
 #portfolio {
@@ -29,10 +25,6 @@ ul {
   padding-left: 0;
 }
 
-.image-holder img {
-  max-width: 100%;
-}
-
 /*** ******************
 * --- Font Styles --- *
 ****************** ***/
@@ -40,10 +32,6 @@ ul {
 body,
 a {
   color: #4a4a4a;
-}
-
-h1 {
-  font-size: 1.5em;
 }
 
 p {
@@ -73,98 +61,57 @@ footer {
 * --- Header & Main Navigation --- *
 *** *************************** ***/
 
-h1 {
-  padding: 8.68% 1% 5.21%;
-}
-
 header .image-holder img {
   max-width: 80%;
 }
 
 header nav a {
   display: block;
-  padding: 3.47% 6.94%;
+  padding: 10px 20px;
   background-color: #fff;
-  margin-bottom: 1.74%;
+  margin-bottom: 5px;
 }
 
-header nav li:last-child {
-  margin-bottom: 8.65%;
-}
-
-header p {
-  color: #9a9a9a;
-  margin: 6.94% 0 10.41%;
-}
-
-/**************** ***
+/*** ************ ***
 * --- Portfolio --- *
 *** ************ ***/
 
-#portfolio {
-  padding-top: 15.5%;
-}
-h3 {
-  padding-bottom: 14%;
-}
-
-h5 {
-  font-size: 1.3em;
-  letter-spacing: .75px;
-  padding: 10.41% 0 6.94%;
-}
-
-#portfolio p {
-  padding-bottom: 10.41%;
-  font-size: .9em;
-  line-height: 1.35;
-}
-
-#portfolio p:last-child {
-  padding-bottom: 17.36%;
+#portfolio-list img {
+  width: 100%;
 }
 
 /*** ********** ***
 * --- Contact --- *
 *** ********** ***/
-
-#contact {
-  padding-top: 12.15%;
+.bottom {
+  margin-bottom: 12%;
 }
-
 #contact a {
+  font-weight: bolder;
   color: #7a7a7a;
   padding-left: 2.5%;
 }
-
 #contact .container {
-  padding-bottom: 17.36%;
+  padding-bottom: 10%;
   border-bottom: 1px solid lightgray;
 }
 
-#contact p {
-  margin-bottom: 6.94%;
-}
 
-#contact .contact-info {
-  margin-bottom: 3.47%;
-}
+
+@media (min-width: 2000px) {
 
 /*** ********* ***
 * --- Footer --- *
 *** ********* ***/
-
-footer h2,
-footer a {
-  font-size: 1em;
-  margin: 8.5% 0 6.94%;
-}
-
 footer h2 {
   float: left;
+  font-size: 1em;
+  padding: 25px 0;
+  margin: 0;
 }
-
 footer a {
+  font-size: 0.8em;
+  padding: 28px 0;
   float: right;
 }
 
@@ -176,8 +123,13 @@ footer a {
   text-transform: uppercase;
 }
 
+.image-holder img {
+  max-width: 100%;
+}
+
 .group::after {
   content: '';
   display: table;
   clear: both;
+}
 }
