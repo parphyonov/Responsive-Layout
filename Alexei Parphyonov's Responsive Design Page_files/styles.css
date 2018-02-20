@@ -1,0 +1,135 @@
+/*** ***************** ***
+* --- General Styles --- *
+*** ***************** ***/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+h5 {
+  color: #000;
+}
+
+#portfolio {
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/*** ******************
+* --- Font Styles --- *
+****************** ***/
+
+body,
+a {
+  color: #4a4a4a;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*** *********************** ***
+* --- Elements' Dimensions --- *
+*** *********************** ***/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header,
+section,
+footer {
+  width: 100%;
+}
+
+/*** *************************** ***
+* --- Header & Main Navigation --- *
+*** *************************** ***/
+
+header .image-holder img {
+  max-width: 80%;
+}
+
+header nav a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+/*** ************ ***
+* --- Portfolio --- *
+*** ************ ***/
+
+#portfolio-list img {
+  width: 100%;
+}
+
+/*** ********** ***
+* --- Contact --- *
+*** ********** ***/
+.bottom {
+  margin-bottom: 12%;
+}
+#contact a {
+  font-weight: bolder;
+  color: #7a7a7a;
+  padding-left: 2.5%;
+}
+#contact .container {
+  padding-bottom: 10%;
+  border-bottom: 1px solid lightgray;
+}
+
+
+
+@media (min-width: 2000px) {
+
+/*** ********* ***
+* --- Footer --- *
+*** ********* ***/
+footer h2 {
+  float: left;
+  font-size: 1em;
+  padding: 25px 0;
+  margin: 0;
+}
+footer a {
+  font-size: 0.8em;
+  padding: 28px 0;
+  float: right;
+}
+
+/*** ********** ***
+* --- Classes --- *
+*** ********** ***/
+
+.upcase {
+  text-transform: uppercase;
+}
+
+.image-holder img {
+  max-width: 100%;
+}
+
+.group::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+}
