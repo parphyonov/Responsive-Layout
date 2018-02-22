@@ -12,3 +12,7 @@
 ## Step 5 Linked the navigation menu to the correct sections of the page using IDs to link to anchor tags
 
 ## Step 6 Checked the code for validity by running it through an HTML and CSS validators
+
+## Step 7 Before project submission, checked off all of the items on the Student Project Submission Checklist
+
+## Step 8 Took a look at "Project 2 Study Guide"
