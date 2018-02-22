@@ -20,7 +20,8 @@ p {
   margin: 0;
 }
 
-#portfolio {
+#portfolio,
+#skills {
   background-color: #fff;
 }
 
@@ -42,8 +43,13 @@ a {
   color: #4a4a4a;
 }
 
+a:hover {
+  color: #ecba26;
+}
+
 h1 {
   font-size: 1.5em;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 p {
@@ -133,6 +139,54 @@ h5 {
   padding-bottom: 17.36%;
 }
 
+/*** ********* ***
+* --- Skills --- *
+*** ********* ***/
+
+#skills {
+  padding-top: 6.94%;
+}
+
+#skills h3 {
+  padding-bottom: 3.5%;
+}
+
+#skills-list li:last-child {
+  margin-bottom: 1.75%;
+}
+#skills-list {
+  padding-bottom: 1.75%;
+}
+
+.skill {
+  color: #fff;
+  width: 40%;
+  padding: 10px 25px;
+  border-style: solid;
+  border-radius: 18px;
+  margin: 5px auto;
+}
+
+.html {
+  background-color: #39add1;
+  border-color: #198db1;
+}
+
+.css {
+  background-color: #3079ab;
+  border-color: #10598b;
+}
+
+.js {
+  background-color: #c25975;
+  border-color: #a23955;
+}
+
+.ios {
+  background-color: #53bbb4;
+  border-color: #339b94;
+}
+
 /*** ********** ***
 * --- Contact --- *
 *** ********** ***/
@@ -171,6 +225,7 @@ footer h2,
 }
 
 footer h2 {
+  font-family: 'Titillium Web', sans-serif;
   float: left;
 }
 
@@ -220,21 +275,25 @@ footer h2 {
     margin-top: 0;
   }
 
+  header nav a {
+    background-color: #fafafa;
+  }
+
   #logo {
     float: right;
     max-width: 40%;
   }
 
-  .navigation ul {
+  nav ul {
     margin: 0;
   }
 
-  .navigation li {
+  nav li {
     display: inline-block;
     margin-right: 5%;
   }
 
-  .navigation li:last-child {
+  nav li:last-child {
     margin-right: 0;
   }
 
@@ -277,6 +336,14 @@ footer h2 {
     padding-bottom: 14%;
   }
 
+  /*** ********* ***
+  * --- Skills --- *
+  *** ********* ***/
+
+  #skills li {
+    display: inline-block;
+  }
+
   /*** ********** ***
   * --- Contact --- *
   *** ********** ***/
@@ -285,7 +352,8 @@ footer h2 {
     padding-top: 5%;
   }
 
-  #contact h3 {
+  #contact h3,
+  #skills h3 {
     padding-bottom: 7%;
   }
 
@@ -353,7 +421,7 @@ footer h2 {
   * --- Portfolio --- *
   *** ************ ***/
 
-  #portfolio {
+  #portfolio, #skills {
     max-width: 95%;
     margin: 0 auto;
     padding-top: 3%;
@@ -382,6 +450,14 @@ footer h2 {
     margin-right: 0;
   }
 
+  /*** ********* ***
+  * --- Skills --- *
+  *** ********* ***/
+
+  #skills li {
+    max-width: 18%;
+  }
+
   /*** ********** ***
   * --- Contact --- *
   *** ********** ***/
@@ -390,7 +466,8 @@ footer h2 {
     padding-top: 2.5%;
   }
 
-  #contact h3 {
+  #contact h3,
+  #skills h3 {
     padding-bottom: 3.5%;
   }
 

@@ -31,3 +31,9 @@
 ::: 768px 👍🏻 :::<br>
 ::: 1024px 👍🏻 :::<br>
 * Internet Explorer ::: not available
+
+# Extra Credit Activities
+* Skills section added and styled
+* Hover state for links which are not part of the contacts is added
+* Additional Google font for h1 and h2 added
+* Both navigations are done with nav element in the markup
