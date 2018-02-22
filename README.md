@@ -19,7 +19,7 @@
 
 # Cross-Browser Testing
 * Google Chrome Version 64.0.3282.167 (Official Build) (64-bit)
-::: 320px 👍🏻 :::
+::: 320px 👍🏻 :::<br>
 ::: 768px 👍🏻 :::
 ::: 1024px 👍🏻 :::
 * Safari Version 11.0.3 (13604.5.6)
