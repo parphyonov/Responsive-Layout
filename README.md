@@ -18,16 +18,16 @@
 ## Step 8 Took a look at "Project 2 Study Guide"
 
 # Cross-Browser Testing
-* Google Chrome Version 64.0.3282.167 (Official Build) (64-bit)
+* Google Chrome Version 64.0.3282.167 (Official Build) (64-bit)<br>
 ::: 320px 👍🏻 :::<br>
-::: 768px 👍🏻 :::
-::: 1024px 👍🏻 :::
-* Safari Version 11.0.3 (13604.5.6)
-::: 320px 👍🏻 :::
-::: 768px 👍🏻 ::: ❕❕❕ Style switch appears a bit later on different elements as the viewport increases, i.e. not exactly at > 768px ❕❕❕
-::: 1024px 👍🏻
-* Firefox Quantum 58.0.1 (64-bit)
-::: 320px 👍🏻 :::
-::: 768px 👍🏻 :::
-::: 1024px 👍🏻 :::
+::: 768px 👍🏻 :::<br>
+::: 1024px 👍🏻 :::<br>
+* Safari Version 11.0.3 (13604.5.6)<br>
+::: 320px 👍🏻 :::<br>
+::: 768px 👍🏻 ::: ❕❕❕ Style switch appears a bit later on different elements as the viewport increases, i.e. not exactly at > 768px ❕❕❕<br>
+::: 1024px 👍🏻<br>
+* Firefox Quantum 58.0.1 (64-bit)<br>
+::: 320px 👍🏻 :::<br>
+::: 768px 👍🏻 :::<br>
+::: 1024px 👍🏻 :::<br>
 * Internet Explorer ::: not available
