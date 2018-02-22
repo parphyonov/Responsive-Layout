@@ -16,3 +16,18 @@
 ## Step 7 Before project submission, checked off all of the items on the Student Project Submission Checklist
 
 ## Step 8 Took a look at "Project 2 Study Guide"
+
+# Cross-Browser Testing
+* Google Chrome Version 64.0.3282.167 (Official Build) (64-bit)
+::: 320px 👍🏻 :::
+::: 768px 👍🏻 :::
+::: 1024px 👍🏻 :::
+* Safari Version 11.0.3 (13604.5.6)
+::: 320px 👍🏻 :::
+::: 768px 👍🏻 ::: ❕❕❕ Style switch appears a bit later on different elements as the viewport increases, i.e. not exactly at > 768px ❕❕❕
+::: 1024px 👍🏻
+* Firefox Quantum 58.0.1 (64-bit)
+::: 320px 👍🏻 :::
+::: 768px 👍🏻 :::
+::: 1024px 👍🏻 :::
+* Internet Explorer ::: not available
