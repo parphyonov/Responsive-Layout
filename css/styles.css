@@ -155,7 +155,8 @@ h5 {
 *** ********* ***/
 
 footer h2,
-footer a {
+#to-top-a,
+#bottom-nav {
   font-size: 1em;
   margin: 8.5% 0 6.94%;
 }
@@ -164,13 +165,14 @@ footer h2 {
   float: left;
 }
 
-footer a {
+#to-top-a,
+#bottom-nav {
   float: right;
 }
 
-/*** ********** ***
-* --- Classes --- *
-*** ********** ***/
+/*** ****************** ***
+* --- Classes and IDs --- *
+*** ****************** ***/
 
 .upcase {
   text-transform: uppercase;
@@ -182,6 +184,10 @@ footer a {
   clear: both;
 }
 
+#bottom-nav {
+  display: none;
+}
+
 @media (min-width: 768px) {
 
   /*** *************************** ***
@@ -189,7 +195,7 @@ footer a {
   *** *************************** ***/
 
   header {
-    padding-bottom: 6.94%;
+    padding-bottom: 8.5%;
   }
 
   h1 {
@@ -210,21 +216,96 @@ footer a {
     max-width: 40%;
   }
 
-  #header-group {
-    vertical-align: top;
-  }
-
-  header nav ul {
+  .navigation ul {
     margin: 0;
   }
 
-  header nav li {
+  .navigation li {
     display: inline-block;
     margin-right: 5%;
   }
 
-  header nav li:last-child {
+  .navigation li:last-child {
     margin-right: 0;
+  }
+
+  /**************** ***
+  * --- Portfolio --- *
+  *** ************ ***/
+
+  #portfolio {
+    padding-top: 7%;
+  }
+
+  #portfolio h3 {
+    padding-bottom: 5%;
+  }
+
+  #portfolio-list h5 {
+    padding-top: 6.94%;
+  }
+
+  #portfolio-list li {
+    max-width: 49%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #portfolio-list li:nth-child(odd) {
+    margin-right: 2.05%;
+  }
+
+  #portfolio-list li:nth-child(even) {
+    margin-left: -4px;
+  }
+
+  #portfolio-list p {
+    font-size: 1em;
+    padding: 0 1em;
+  }
+
+  #portfolio p:last-child {
+    padding-bottom: 14%;
+  }
+
+  /*** ********** ***
+  * --- Contact --- *
+  *** ********** ***/
+
+  #contact {
+    padding-top: 5%;
+  }
+
+  #contact h3 {
+    padding-bottom: 7%;
+  }
+
+  #contact .container {
+    padding-bottom: 5%;
+  }
+
+  #contact p {
+    font-size: 1.25em;
+    padding: 0 7.5em;
+    margin-bottom: 6.94%;
+  }
+
+  #contact .contact-info {
+    margin-bottom: 3.47%;
+  }
+
+  /*** ********* ***
+  * --- Footer --- *
+  *** ********* ***/
+
+  #to-top-a {
+    display: none;
+  }
+
+  #bottom-nav {
+    display: block;
+    text-align: right;
+    width: 40%;
   }
 
 }
